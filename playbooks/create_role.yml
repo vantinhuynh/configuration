@@ -4,7 +4,7 @@
 #   ansible-playbook -c local --limit "localhost," ./create_role.yml -i "localhost," -e my_role_name=my_awesome_role
 #
 - hosts: localhost
-  gather_facts: False
+  gather_facts: True
   roles:
     - ansible-role
 
