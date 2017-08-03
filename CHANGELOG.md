@@ -356,3 +356,5 @@
   - Remove EDXAPP_ANALYTICS_API_KEY, EDXAPP_ANALYTICS_SERVER_URL, EDXAPP_ANALYTICS_DATA_TOKEN, EDXAPP_ANALYTICS_DATA_URL since they are old and
   no longer consumed.
 
+- Role: edxapp
+  - Added `EDXAPP_VIDEO_TRANSCRIPTS_SETTINGS` to configure S3-backed video transcripts.
